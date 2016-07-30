@@ -6,3 +6,4 @@ AllCops:
     - spec/**/*.rb
   Exclude:
     - db/**/*.rb
+    - bin/**/*
