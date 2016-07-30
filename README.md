@@ -1,24 +1,15 @@
-# README
+# Prattle
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+A small microblog-style Rails 5 application, with Turbolinks and
+Materialize CSS.
 
-Things you may want to cover:
+## Setup
 
-* Ruby version
+You will need to install [PhantomJS](http://phantomjs.org/) for your 
+platform, as well as [PostgreSQL](https://www.postgresql.org/).
 
-* System dependencies
+Run `bin/setup` after cloning to get started.
 
-* Configuration
+## Tests
 
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+Run `bundle exec rspec` to run both unit and feature tests.
