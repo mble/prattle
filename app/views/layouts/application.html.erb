@@ -21,7 +21,6 @@
     </nav>
     <div class="container main-container">
       <% flash.each do |type, message| %>
-        <% p type %>
         <script>
           $(function() {
             Materialize.toast('<%= message %>', 3000, '<%= toast_class(type) %>');
