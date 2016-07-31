@@ -34,6 +34,8 @@ group :test do
   gem 'ffaker'
   gem 'rspec-its'
   gem 'rspec-rails'
+  gem 'shoulda-matchers'
   gem 'vcr'
   gem 'webmock'
+  gem 'poltergeist'
 end
