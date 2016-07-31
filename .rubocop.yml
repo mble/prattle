@@ -7,3 +7,6 @@ AllCops:
   Exclude:
     - db/**/*.rb
     - bin/**/*
+    - vendor/**/*
+Rails:
+  Enabled: true

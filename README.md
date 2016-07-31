@@ -1,4 +1,5 @@
 # Prattle
+[![Build Status](https://travis-ci.org/mble/prattle.svg?branch=master)](https://travis-ci.org/mble/prattle)
 
 A small microblog-style Rails 5 application, with Turbolinks and
 Materialize CSS.
