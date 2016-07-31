@@ -30,12 +30,6 @@ class App.Posts
       else 'black-text'
 
     @counter.removeClass('red-text orange-text black-text').addClass klass
-    @toggleSubmit contentLength
-
-  toggleSubmit: (contentLength) ->
-    @submitButton.prop 'disabled', false
-    if contentLength == 150 || contentLength < 0
-      @submitButton.prop 'disabled', true
 
 $(document).on 'turbolinks:load', ->
   klass = new App.Posts
