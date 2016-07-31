@@ -1,5 +1,7 @@
 # Prattle
 [![Build Status](https://travis-ci.org/mble/prattle.svg?branch=master)](https://travis-ci.org/mble/prattle)
+[![Code Climate](https://codeclimate.com/github/mble/prattle/badges/gpa.svg)](https://codeclimate.com/github/mble/prattle)
+[![Test Coverage](https://codeclimate.com/github/mble/prattle/badges/coverage.svg)](https://codeclimate.com/github/mble/prattle/coverage)
 
 A small microblog-style Rails 5 application, with Turbolinks and
 Materialize CSS.

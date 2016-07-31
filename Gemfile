@@ -38,4 +38,5 @@ group :test do
   gem 'vcr'
   gem 'webmock'
   gem 'poltergeist'
+  gem 'codeclimate-test-reporter'
 end
