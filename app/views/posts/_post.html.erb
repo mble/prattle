@@ -1,0 +1,11 @@
+<li class="collection-item">
+  <span class="secondary-content">
+    <%= link_to 'delete', post, method: :delete, class: 'btn red' %>
+  </span>
+  <span class="title">
+    <%= simple_format(post.content) %>
+  </span>
+  <p class="grey-text">
+  <i title='<%= l(post.created_at) %>'><%= time_ago_in_words(post.created_at).humanize %></i>
+  </p>
+</li>

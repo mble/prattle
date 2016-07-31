@@ -1,0 +1,15 @@
+<div class="row posts-form">
+  <%= render partial: 'post_form' %>
+</div>
+
+<div class="row posts-timeline">
+  <% if @posts.exists? %>
+    <ul class="collection">
+      <% @posts.each do |post| %>
+        <%= render partial:  'post', locals: { post: post } %>
+      <% end %>
+    </ul>
+  <% else %>
+    <%= render partial: 'empty_posts' %>
+  <% end %>
+</div>

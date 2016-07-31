@@ -1,0 +1,13 @@
+<%= form_for(@post) do |f| %>
+  <div class="input-field">
+    <%= f.text_area :content, placeholder: "Write a new post...", class: 'materialize-textarea' %>
+  </div>
+  <div class="row">
+    <div class="col s9">
+      <%= f.submit "Post", class: "btn light-blue" %>
+    </div>
+    <div class="col s3">
+      <span class='content-count'></span>
+    </div>
+  </div>
+<% end %>
