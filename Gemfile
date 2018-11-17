@@ -27,8 +27,8 @@ end
 gem 'tzinfo-data', platforms: %i[mingw mswin x64_mingw jruby]
 
 group :test do
+  gem 'simplecov'
   gem 'capybara'
-  gem 'codeclimate-test-reporter'
   gem 'database_cleaner'
   gem 'factory_girl'
   gem 'ffaker'
