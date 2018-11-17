@@ -1,6 +1,6 @@
 require 'spec_helper'
 
-describe Post do
+describe Post, type: :model do
   subject { build :post }
 
   context 'validations' do

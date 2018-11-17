@@ -7,4 +7,4 @@ before_install:
   - bundle install
   - bundle exec rails db:setup
 script:
-  - bundle exec rake test && bundle exec codeclimate-test-reporter
+  - bundle exec rspec && bundle exec codeclimate-test-reporter

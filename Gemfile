@@ -5,7 +5,7 @@ gem 'materialize-sass'
 gem 'pg', '~> 0.18'
 gem 'puma', '~> 3.0'
 gem 'rails', '~> 5.0.3'
-gem 'sass-rails', '~> 5.0'
+gem 'sassc-rails'
 gem 'uglifier', '>= 1.3.0'
 
 gem 'bdd-rails'
@@ -36,6 +36,7 @@ group :test do
   gem 'rspec-its'
   gem 'rspec-rails'
   gem 'shoulda-matchers'
+  gem 'rails-controller-testing'
   gem 'vcr'
   gem 'webmock'
 end
