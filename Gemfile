@@ -30,7 +30,7 @@ group :test do
   gem 'simplecov'
   gem 'capybara'
   gem 'database_cleaner'
-  gem 'factory_girl'
+  gem 'factory_bot'
   gem 'ffaker'
   gem 'poltergeist'
   gem 'rspec-its'
