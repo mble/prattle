@@ -1,5 +1,7 @@
 source 'https://rubygems.org'
 
+ruby '2.5.3'
+
 gem 'coffee-rails', '~> 4.2'
 gem 'materialize-sass'
 gem 'pg', '~> 0.18'
