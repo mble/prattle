@@ -23,7 +23,7 @@
       <% flash.each do |type, message| %>
         <script>
           $(function() {
-            Materialize.toast('<%= message %>', 3000, '<%= toast_class(type) %>');
+            M.toast({html: '<%= message %>', displayLength: 3000, classes: '<%= toast_class(type) %>'});
           });
         </script>
       <% end %>
