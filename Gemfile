@@ -1,6 +1,6 @@
 source 'https://rubygems.org'
 
-ruby '2.5.3'
+ruby '2.6.3'
 
 gem 'coffee-rails', '~> 4.2'
 gem 'materialize-sass'
